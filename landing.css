@@ -1,0 +1,76 @@
+/* Body Styles */
+body {
+    margin: 0;
+    font-family:serif ;
+}
+
+/* Background Image */
+.bg {
+    position: relative;
+    background-image: url('F11.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+#t1 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+#t2 {
+    font-size: 2rem;
+    margin: 10px 0;
+    
+}
+
+/* Button Styles */
+.btn1 {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(255, 0, 98);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 25px;
+    text-decoration: none;
+
+}
+
+.btn1:hover {
+    background-color: rgb(251, 45, 134);
+}
+
+
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    margin-left: 30%;
+    gap: 20px;
+    font-weight: 600;
+    padding: 10px;
+  
+   
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: rgb(255, 0, 115);
+}

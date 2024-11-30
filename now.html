@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Now</title>
+    <link rel="stylesheet" href="now.css">
+
+</head>
+<body>
+    <div class="order-container">
+       
+        <div class="order-content">
+            
+            <div class="food-image">
+                <h2 id="nt">Let Join with Us!</h2>
+                <img src="FOOD.avif" alt="Food Image" />
+            </div>
+
+            
+            <div class="order-form-container">
+                <h2>Place Your Order</h2>
+                <form action="#" method="POST" class="order-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mobile">Mobile Number:</label>
+                        <input type="text" id="mobile" name="mobile" placeholder="Enter your mobile number" required pattern="[0-9]{10}">
+                        <small>Format: 1234567890</small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <textarea id="address" name="address" placeholder="Enter your address" required rows="4"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="landmark">Landmark:</label>
+                        <input type="text" id="landmark" name="landmark" placeholder="Enter a nearby landmark" required>
+                    </div>
+                    <a href="confirm.html" class="btn">Place Your Order </a>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Your Company Name. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Service</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
